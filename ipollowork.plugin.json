@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "id": "autofix-merge-gate",
+  "name": "Autofix Merge Gate",
+  "description": "Review agent-generated security-fix pull requests for alert traceability, validation evidence, scope risk, and merge readiness.",
+  "source": {
+    "format": "ipollowork-extension-manifest",
+    "origin": "local",
+    "trusted": false
+  },
+  "package": {
+    "version": "1.0.0",
+    "publisher": {
+      "id": "sykdhqk",
+      "name": "sykdhqk"
+    },
+    "updateId": "sykdhqk/autofix-merge-gate",
+    "compatibility": {
+      "ipollowork": ">=0.50.12"
+    }
+  },
+  "resources": [
+    {
+      "type": "skill",
+      "id": "autofix-merge-gate",
+      "label": "Autofix Merge Gate",
+      "path": "skills/autofix-merge-gate",
+      "required": true
+    }
+  ]
+}
